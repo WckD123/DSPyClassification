@@ -1,0 +1,41 @@
+{
+  "generate_label.predictor": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "text": "I just got my auto policy renewal bill and the cost seems to be more than what I usually pay. Could you explain the reason for the increase?",
+        "reasoning": "Text: I just got my auto policy renewal bill and the cost seems to be more than what I usually pay. Could you explain the reason for the increase?\nReasoning: Let's think step by step in order to classify this text into one of the given options. The text is asking about an increase in the cost of an auto insurance policy renewal, which falls under",
+        "answer": "{\n  \"value\": \"Billing Inquiries\"\n}"
+      },
+      {
+        "augmented": true,
+        "text": "The premium for my car insurance renewal is higher than I expected. Can you clarify why there was a price increase compared to my previous policy?",
+        "reasoning": "Text: The premium for my car insurance renewal is higher than I expected. Can you clarify why there was a price increase compared to my previous policy?\nReasoning: Let's think step by step in order to determine the appropriate category for this text. The text is asking about an increase in the insurance premium, which is related to billing and charges. This falls under",
+        "answer": "{\n  \"value\": \"Billing Inquiries\"\n}"
+      },
+      {
+        "augmented": true,
+        "text": "I need some help understanding why my auto insurance bill for the upcoming term is more expensive than it has been in the past. Could you provide an explanation?",
+        "reasoning": "Text: I need some help understanding why my auto insurance bill for the upcoming term is more expensive than it has been in the past. Could you provide an explanation?\nReasoning: Let's think step by step in order to determine the appropriate category for this inquiry. The text mentions a question about an increase in the insurance bill, which suggests it is related to billing an",
+        "answer": "{\n  \"value\": \"Billing Inquiries\"\n}"
+      },
+      {
+        "augmented": true,
+        "text": "I would like to modify the coverage limits and deductibles on my homeowners insurance policy. What choices do I have available?",
+        "reasoning": "Text: I would like to modify the coverage limits and deductibles on my homeowners insurance policy. What choices do I have available?\nReasoning: Let's think step by step in order to determine the appropriate category for this inquiry. The text indicates that the user is asking about making changes to their existing insurance policy, which would fall under the \"Policy Administration\"",
+        "answer": "{\n  \"value\": \"Policy Administration\"\n}"
+      },
+      {
+        "augmented": true,
+        "text": "Can you tell me what my options are for changing the deductibles and coverage limits associated with my home insurance policy?",
+        "reasoning": "Text: Can you tell me what my options are for changing the deductibles and coverage limits associated with my home insurance policy?\nReasoning: Let's think step by step in order to classify this text into one of the given options. The text is asking about changing the deductibles and coverage limits of a home insurance policy, which falls under the category of \"",
+        "answer": "{\n  \"value\": \"Policy Administration\"\n}"
+      }
+    ],
+    "signature_instructions": "Classify a text into one of the given options:\n\n1. Billing Inquiries: Questions about invoices, charges, fees, and premiums; Requests for clarification on billing statements; Inquiries about payment methods and due dates\n2. Policy Administration: Requests for policy changes, updates, or cancellations; Questions about policy renewals and reinstatements; Inquiries about adding or removing coverage options\n3. Claims Assistance: Questions about the claims process and filing procedures; Requests for help with submitting claim documentation; Inquiries about claim status and payout timelines\n4. Coverage Explanations: Questions about what is covered under specific policy types; Requests for clarification on coverage limits and exclusions; Inquiries about deductibles and out-of-pocket expenses\n5. Quotes and Proposals: Requests for new policy quotes and price comparisons; Questions about available discounts and bundling options; Inquiries about switching from another insurer\n6. Account Management: Requests for login credentials or password resets; Questions about online account features and functionality; Inquiries about updating contact or personal information\n7. Billing Disputes: Complaints about unexpected or incorrect charges; Requests for refunds or premium adjustments; Inquiries about late fees or collection notices\n8. Claims Disputes: Complaints about denied or underpaid claims; Requests for reconsideration of claim decisions; Inquiries about appealing a claim outcome\n9. Policy Comparisons: Questions about the differences between policy options; Requests for help deciding between coverage levels; Inquiries about how policies compare to competitors' offerings\n10. General Inquiries: Questions about company contact information or hours of operation; Requests for general information about products or services; Inquiries that don't fit neatly into other categories",
+    "signature_prefix": "Answer:"
+  }
+}

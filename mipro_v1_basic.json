@@ -1,0 +1,41 @@
+{
+  "generate_label.predictor": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "text": "With retirement on the horizon, I'm thinking about updating my life insurance coverage to better suit my changing circumstances. Can you suggest some modifications I should make to my policy as I enter this new phase of life?",
+        "reasoning": "Text: With retirement on the horizon, I'm thinking about updating my life insurance coverage to better suit my changing circumstances. Can you suggest some modifications I should make to my policy as I enter this new phase of life?\nReasoning: Let's think step by step in order to classify this text into one of the given options. The text is asking about making changes to",
+        "answer": "{\n  \"value\": \"Policy Administration\"\n}"
+      },
+      {
+        "augmented": true,
+        "text": "My auto policy mentions rental car coverage, but I'm unsure about the particulars. Could you explain what the daily and per-incident allowances are for rental car expenses under my insurance plan?",
+        "reasoning": "Text: My auto policy mentions rental car coverage, but I'm unsure about the particulars. Could you explain what the daily and per-incident allowances are for rental car expenses under my insurance plan?\nReasoning: Let's think step by step in order to classify this text into one of the given options. The text is asking for clarification on the details",
+        "answer": "{\n  \"value\": \"Coverage Explanations\"\n}"
+      },
+      {
+        "augmented": true,
+        "text": "I took my vehicle to the shop after an accident, and their estimate for the work is higher than what your adjuster authorized. How can I dispute this discrepancy and ensure that the entire repair bill is paid for by my insurance?",
+        "reasoning": "Text: I took my vehicle to the shop after an accident, and their estimate for the work is higher than what your adjuster authorized. How can I dispute this discrepancy and ensure that the entire repair bill is paid for by my insurance?\n\nReasoning: Let's think step by step in order to classify this text into one of the given options.\n\nThe",
+        "answer": "{\n  \"value\": \"Claims Disputes\"\n}"
+      },
+      {
+        "augmented": true,
+        "text": "I suspect I'm being charged twice for the motorcycle endorsement on my auto policy. The cost of my premium increased, but I don't see an itemized charge for the endorsement. Can you help me understand what's going on?",
+        "reasoning": "Text: I suspect I'm being charged twice for the motorcycle endorsement on my auto policy. The cost of my premium increased, but I don't see an itemized charge for the endorsement. Can you help me understand what's going on?\n\nReasoning: Let's think step by step in order to classify this text into one of the given options. The text",
+        "answer": "{\n  \"value\": \"Billing Disputes\"\n}"
+      },
+      {
+        "augmented": true,
+        "text": "According to the cancellation notice I received, my insurance is being terminated for failure to pay my premium on time. However, I believe I made the payment by the deadline. Can you investigate this situation and restore my policy if a mistake has occurred?",
+        "reasoning": "Text: According to the cancellation notice I received, my insurance is being terminated for failure to pay my premium on time. However, I believe I made the payment by the deadline. Can you investigate this situation and restore my policy if a mistake has occurred?\n\nReasoning: Let's think step by step in order to determine the appropriate category for this text. The text",
+        "answer": "{\n  \"value\": \"Billing Disputes\"\n}"
+      }
+    ],
+    "signature_instructions": "Observations: The dataset contains examples of common insurance-related inquiries covering a range of topics, including billing disputes, claims disputes, policy administration, and coverage explanations. The language used in the examples is conversational, reflecting typical customer service requests, and demonstrates a need for clear explanations and step-by-step guidance to address these types of insurance-related questions",
+    "signature_prefix": "Observations: The dataset contains examples of common insurance-related inquiries covering a range of topics, including billing disputes, claims disputes, policy administration, and coverage explanations. The language used in the examples is conversational, reflecting typical customer service requests, and demonstrates a need for clear explanations and step-by-step guidance to address these types of insurance-related questions"
+  }
+}
